@@ -1,0 +1,10 @@
+#extaract lines between timestamps
+sed  -n '/Sep 19 13:43:47/,/Sep 19 22:09:26/p' /var/log/syslog
+
+# find and replace
+sed 's/abc/cba/' test
+
+#display lines from 5 to 10
+sed -n  '5,10p' /var/log/syslog
+
+

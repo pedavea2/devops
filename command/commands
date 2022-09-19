@@ -1,0 +1,2 @@
+sed  '/Sep 19 13:43:47/,/Sep 19 21:17:02/p' /var/log/syslog
+sed  -n '/Sep 19 13:43:47/,/Sep 19 22:09:26/p' /var/log/syslog
